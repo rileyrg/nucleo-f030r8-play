@@ -1,0 +1,25 @@
+#+TITLE: nucleo-f030r8
+#+AUTHOR: rileyrg
+#+EMAIL: rileyrg at g mx dot de
+
+#+DESCRIPTION: playing with stm32 and platformio
+#+STARTUP: overview
+
+#+OPTIONS: toc:nil
+#+OPTIONS: ^:nil
+
+#+EXPORT_FILE_NAME: README.md
+
+* overview
+
+using [[https://docs.platformio.org/en/latest/platforms/ststm32.html][platformio]] for building and deploying stm32 firmware.
+
+Using [[file:platformio.ini::framework = arduino][arduino]] framework.
+
+** lsp in emacs
+
+Create a compile_commands.json inside .pio and symlink it into the root directory.
+
+#+begin_src bash
+pio run -t compiledb
+#+end_src
