@@ -16,6 +16,8 @@ using [[https://docs.platformio.org/en/latest/platforms/ststm32.html][platformio
 
 Using [[file:platformio.ini::framework = arduino][arduino]] framework.
 
+
+
 ** lsp in emacs
 
 Create a compile_commands.json inside .pio and symlink it into the root directory.
