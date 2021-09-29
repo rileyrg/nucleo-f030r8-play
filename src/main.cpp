@@ -1,4 +1,4 @@
-#ifdef RGR_ARDUINO
+#ifdef ARDUINO_ARCH_STM32
 
 #include <Arduino.h>
 
